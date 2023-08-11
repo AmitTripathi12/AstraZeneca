@@ -19,3 +19,6 @@ average_ingredients_route = filtered_data_route['Number_Ingredients'].mean()
 filtered_data_year = astrazeneca_df[astrazeneca_df['Year'] == selected_year]
 average_ingredients_year = filtered_data_year['Number_Ingredients'].mean()
 
+# Display results
+st.write(f"Average Ingredients in {selected_route} medicines for {selected_year}: {average_ingredients_route:.2f}")
+st.write(f"Average Ingredients for all routes in {selected_year}: {average_ingredients_year:.2f}")
