@@ -3,7 +3,7 @@ import pandas as pd
 
 
 # Create a DataFrame
-astrazeneca_df = pd.read_csv(r"C:\McDermott\Data Science\AstraZeneca Project\astrazeneca_data.csv")
+astrazeneca_df = pd.read_csv(r"AstraZeneca/astrazeneca_data.csv")
 
 # Streamlit app
 st.title("Medicine Ingredients Analysis")
