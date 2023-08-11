@@ -6,7 +6,7 @@ import pandas as pd
 astrazeneca_df = pd.read_csv("astrazeneca_data.csv")
 
 # Streamlit app
-st.title("Average number of Ingredients 1. per year  2. per year per route for AstraZeneca")
+st.title("Average number of Ingredients 1. per year per route 2. per year for AstraZeneca")
 
 # Sidebar for user input
 selected_year = st.sidebar.selectbox("Select Year", astrazeneca_df['Year'].unique())
